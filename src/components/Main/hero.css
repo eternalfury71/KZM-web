@@ -1,0 +1,46 @@
+main {
+    height: 100vh;
+}
+
+.main_text {
+    max-width: 800px;
+    padding: 180px 80px;
+}
+
+.main_text h1 {
+    color: #3860A9;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 90.234%; /* 86.625px */
+    letter-spacing: 6.72px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+@keyframes showText {   
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes showText2 {   
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.show {
+    animation: showText 1s ease-in-out;
+}
+.extra_text {
+    animation: showText2 1.5s ease-in;
+}

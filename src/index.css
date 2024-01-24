@@ -1,0 +1,22 @@
+:root {
+    --main-color: #3860A9;
+    --sec-color:#FFC731;
+    --opt-color: #0CB5DD;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}

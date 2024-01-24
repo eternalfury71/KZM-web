@@ -1,0 +1,36 @@
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container {
+    position: relative;
+    padding: 10px 50px;
+    width: 50%;
+}
+.text-box {
+    padding: 20px 30px;
+    background-color: var(--main-color);
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.left-container {
+    left: 0;
+}
+
+.right-container {
+    left: 50%;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: lightgray;
+    top: 0;
+    left: 50%;
+}

@@ -1,0 +1,29 @@
+header {
+    width: 100%;
+    font-size: 18px;
+    letter-spacing: 2.88;
+}
+
+nav {
+    padding: 10px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+}
+.nav-list_item {
+    margin-right: 40px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+    cursor: pointer;
+}
+.nav-list_item:hover {
+    transform: scale(1.1);
+    border-color: var(--main-color);
+}
+.nav-list_item:last-child {
+    margin: 0;
+}
